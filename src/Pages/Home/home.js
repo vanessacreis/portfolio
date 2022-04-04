@@ -24,7 +24,6 @@ export const Infos = styled.section`
     font-size: 36px;
     text-transform: uppercase;
     font-weight: bold;
-    font-family: "Montserrat", sans-serif;
   }
 
   > p {

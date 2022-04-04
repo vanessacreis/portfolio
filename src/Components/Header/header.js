@@ -9,7 +9,7 @@ export const Header = styled.header`
   gap: 20px;
   background-color: transparent;
   color: ${(p) => p.theme.primary};
-  padding: 0 20px;
+  padding: 0 30px;
   font-size: 16px;
   position: absolute;
   z-index: 2;
