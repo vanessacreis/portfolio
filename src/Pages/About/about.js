@@ -24,7 +24,8 @@ export const Text = styled.div`
 
   p {
     font-size: 18px;
-    color: ${(p) => p.theme.primary};
+    color: ${(p) => p.theme.text};
+    font-weight: 200;
     line-height: 28px;
     text-align: justify;
   }

@@ -11,8 +11,8 @@ export const Container = styled.main`
   justify-content: space-around;
 
   section > img {
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
   }
 `;
 

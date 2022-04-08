@@ -11,6 +11,7 @@ export const Header = styled.header`
   color: ${(p) => p.theme.primary};
   padding: 0 30px;
   font-size: 16px;
+  right: 30px;
   position: absolute;
   z-index: 2;
 
