@@ -21,7 +21,7 @@ const Routes = () => {
           <Route path="/" element={<Home theme={theme} />} />
           <Route path="/sobre" element={<About theme={theme} />} />
           <Route path="/portfolio" element={<Portfolio theme={theme} />} />
-          <Route path="/projeto/:nome" element={<Project theme={theme} />} />
+          <Route path="/projeto/:name" element={<Project theme={theme} />} />
         </Switch>
       </ThemeProvider>
     </BrowserRouter>
