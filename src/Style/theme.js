@@ -1,7 +1,7 @@
 export const dark = {
   name: "dark",
   black: "#0D0D0D",
-  white: "#FEFEFE",
+  white: "#F2F2F2",
   primary: "#D9AB91",
   secundary: "#A66B56",
   tertiary: "#F2CAB3",
@@ -11,7 +11,7 @@ export const dark = {
 
 export const light = {
   name: "light",
-  black: "#FEFEFE",
+  black: "#FCFCFC",
   white: "#0D0D0D",
   primary: "#8C3E3E",
   secundary: "#F28888",
