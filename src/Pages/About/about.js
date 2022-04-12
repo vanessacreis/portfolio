@@ -1,10 +1,17 @@
 import styled from "styled-components";
 
-export const About = styled.section`
-  width: 100vw;
-  height: 100vh;
+export const Container = styled.main`
+  width: 100%;
+  height: auto;
   background-color: ${(p) => p.theme.black};
   background-repeat: no-repeat;
+  background-position: top 0 right 0;
+  background-size: contain;
+`;
+
+export const About = styled.section`
+  width: 100%;
+  height: 100vh;
   padding: 50px 20px;
   display: flex;
   flex-direction: column;
@@ -25,16 +32,16 @@ export const Text = styled.div`
   p {
     font-size: 18px;
     color: ${(p) => p.theme.text};
-    font-weight: 200;
+    font-weight: 300;
     line-height: 28px;
     text-align: justify;
   }
 `;
 
 export const Skills = styled.section`
-  width: 100vw;
+  width: 100%;
   height: 100vh;
-  background-color: ${(p) => p.theme.black};
+  /* background-color: ${(p) => p.theme.black}; */
   background-repeat: no-repeat;
   padding: 50px 20px;
   display: flex;

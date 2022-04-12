@@ -3,15 +3,13 @@ import * as S from "./about.js";
 
 const About = ({ theme }) => {
   const urlAbout = `/assets/img/BGAbout-${theme ? "dark" : "light"}.svg`;
-  const urlSkills = `/assets/img/BGSkills-${theme ? "dark" : "light"}.svg`;
   return (
-    <>
-      <S.About
-        style={{
-          backgroundImage: `url(${urlAbout})`,
-          backgroundPosition: "right, 0 ",
-        }}
-      >
+    <S.Container
+      style={{
+        backgroundImage: `url(${urlAbout})`,
+      }}
+    >
+      <S.About>
         <S.Text>
           <h1>Sobre</h1>
           <p>
@@ -29,18 +27,12 @@ const About = ({ theme }) => {
           </p>
         </S.Text>
       </S.About>
-      <S.Skills
-        style={{
-          backgroundImage: `url(${urlSkills})`,
-          backgroundPosition: "right, 0 ",
-        }}
-      >
+      <S.Skills>
         <h1>
           Habilidades <br />e ferramentas
         </h1>
-        
       </S.Skills>
-    </>
+    </S.Container>
   );
 };
 
