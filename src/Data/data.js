@@ -13,6 +13,7 @@ export const projetos = [
       tools: ["Figma", "VSCode"],
     },
     category: "front end",
+    highlighted: true,
   },
   {
     id: 2,
@@ -28,6 +29,7 @@ export const projetos = [
       tools: ["Figma", "VSCode", "Jira", "Notion"],
     },
     category: "front end",
+    highlighted: true,
   },
   {
     id: 3,
@@ -43,6 +45,7 @@ export const projetos = [
       tools: ["VSCode", "Notion"],
     },
     category: "front end",
+    highlighted: false,
   },
   {
     id: 4,
@@ -58,6 +61,7 @@ export const projetos = [
       tools: ["VSCode", "Notion"],
     },
     category: "front end",
+    highlighted: false,
   },
   {
     id: 5,
@@ -74,6 +78,7 @@ export const projetos = [
       tools: ["Figma", "VSCode", "Trello", "Notion"],
     },
     category: "front end",
+    highlighted: false,
   },
   {
     id: 6,
@@ -89,11 +94,12 @@ export const projetos = [
       tools: ["VSCode", "Notion"],
     },
     category: "front end",
+    highlighted: false,
   },
   {
     id: 7,
     name: "Bookstore API",
-    img: "",
+    img: "/assets/img/BookstoreAPI.png",
     description:
       "API Rest com as informações do estoque de uma livraria, desenvolvido como projeto de encerramento do módulo 4 da Resilia Educação.",
     github: "https://github.com/vanessacreis/Bookstore-API",
@@ -104,11 +110,12 @@ export const projetos = [
       tools: ["Figma", "VSCode", "Trello", "Notion"],
     },
     category: "back end",
+    highlighted: false,
   },
   {
     id: 8,
-    name: "Database League of Legends",
-    img: "",
+    name: "League of Legends Database",
+    img: "/assets/img/LolDatabase.png",
     description:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod unde veniam, corrupti molestiae asperiores vero magnam commodi modi quo,reprehenderit expedita dolore beatae optio necessitatibus corporis, numquam quidem ab quas.",
     github: "https://github.com/vanessacreis/BD_LoL",
@@ -119,5 +126,6 @@ export const projetos = [
       tools: ["MySQL Workbench", "VSCode", "Trello", "Canva", "Google sheets"],
     },
     category: "data",
+    highlighted: false,
   },
 ];
