@@ -13,6 +13,11 @@ export const Container = styled.main`
   section > img {
     width: 350px;
     height: 350px;
+    transition: all 1s;
+
+    &:hover {
+      filter: drop-shadow(2px 2px 10px ${(p) => p.theme.secundary});
+    }
   }
 `;
 
@@ -42,10 +47,19 @@ export const Infos = styled.section`
   .iconInfo {
     width: 35px;
     height: 35px;
+    transition: all 0.5s;
+    &:hover {
+      width: 40px;
+      height: 40px;
+    }
   }
 
   .iconMail {
     width: 40px;
     height: 50px;
+    transition: all 0.5s;
+    &:hover {
+      width: 45px;
+    }
   }
 `;
