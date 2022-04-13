@@ -15,19 +15,17 @@ export const GlobalStyle = createGlobalStyle`
 
     ::-webkit-scrollbar-track {
       box-shadow: inset 0 0 5px ${(p) => p.theme.secundary};
-      border-radius: 10px;
+      border-radius: 5px;
     }
 
     ::-webkit-scrollbar-thumb {
       background: ${(p) => p.theme.primary};
-      border-radius: 10px;
+      border-radius: 5px;
     }
   }
 
   html,body{
     width: 100%;
     min-height: 100vh;
-
-    
   }
 `;
