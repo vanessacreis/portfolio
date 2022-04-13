@@ -10,7 +10,6 @@ export const Project = styled.div`
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 5px;
-  animation: all 3s both;
 
   &.destaque {
     width: 45%;
@@ -40,11 +39,11 @@ export const Project = styled.div`
     background-color: #10101075;
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
+    
   }
   &:hover {
     .titulo {
       visibility: visible;
-      animation: all 1s both;
     }
   }
 `;
