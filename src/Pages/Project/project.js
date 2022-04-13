@@ -11,19 +11,18 @@ export const Container = styled.main`
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 
   h1 {
     font-size: 30px;
     color: ${(p) => p.theme.primary};
     font-weight: 500;
     margin-bottom: 30px;
-    text-align: left;
   }
 `;
 
-export const divProjeto = styled.div`
-  width: 90%;
+export const divInfo = styled.div`
+  width: 85%;
   height: 90%;
   display: flex;
   justify-content: space-around;
@@ -39,28 +38,4 @@ export const divProjeto = styled.div`
   .imgProject > img {
     width: 100%;
   }
-
-  .infoProject {
-    width: 45%;
-    color: ${(p) => p.theme.text};
-    font-size: 18px;
-    font-weight: 300;
-    line-height: 28px;
-    text-align: justify;
-  }
-
-  a {
-    text-decoration: none;
-    color: ${(p) => p.theme.secundary};
-    font-weight: bolder;
-  }
-`;
-
-export const Category = styled.p`
-  width: 100px;
-  height: 50px;
-
-  /* .html {
-    background-color: ;
-  } */
 `;

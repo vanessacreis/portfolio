@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import * as S from "./project.js";
 import { projetos } from "../../Data/data.js";
+import InfoProject from "../../Components/InfoProject/InfoProject.jsx";
 
 const Project = ({ theme }) => {
   const url = `/assets/img/BGAbout-${theme ? "dark" : "light"}.svg`;
@@ -20,20 +21,17 @@ const Project = ({ theme }) => {
       }}
     >
       <h1>{project.name}</h1>
-      <S.divProjeto>
+      <S.divInfo>
         <div className="imgProject">
-          <img src={project.img} alt="" />
+          <img src={project.img} alt="Imagem do projeto" />
         </div>
-        <div className="infoProject">
-          <p>{project.description}</p>
-          <p>
-            Github: <a href={project.github}>Link do repositório</a>.
-          </p>
-          <p>
-            Deploy: <a href={project.deploy}>Link do deploy</a>.
-          </p>
-        </div>
-      </S.divProjeto>
+        <InfoProject
+          key={project.id}
+          description={project.description}
+          github={project.github}
+          deploy={project.deploy}
+        />
+      </S.divInfo>
     </S.Container>
   );
 };
