@@ -4,7 +4,7 @@ export const projetos = [
     name: "To-Do List",
     img: "/assets/img/ToDoList.png",
     description:
-      "A aplicação de To-Do List foi desenvolvida a partir da API JSON Placeholder. Nela é possível visualizar a lista de usuários, suas tarefas, adicionar novos afazeres e marcar itens concluídos. ",
+      "A aplicação de To-Do List foi desenvolvida a partir da API JSON Placeholder. Nela é possível visualizar a lista de usuários, suas tarefas, adicionar novos afazeres e marcar itens concluídos. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod unde       veniam, corrupti molestiae asperiores vero magnam commodi modi quo,       reprehenderit expedita dolore beatae optio necessitatibus corporis,       numquam quidem ab quas. Lorem ipsum dolor sit amet consectetur       adipisicing elit. Provident, illum. Eaque, quod asperiores ut beatae       incidunt corporis optio quia hic ipsa similique veniam doloremque,       saepe, quas adipisci perferendis iusto necessitatibus! Lorem ip",
     github: "https://github.com/vanessacreis/ToDoList",
     deploy: "https://harmonious-cendol-c8e926.netlify.app/",
     stacks: {
