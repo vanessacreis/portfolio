@@ -5,7 +5,8 @@ export const dark = {
   primary: "#D9AB91",
   secundary: "#A66B56",
   tertiary: "#F2CAB3",
-  text: "#F2CAB3",
+  text: "#FCFCFC",
+  scrollbar: "#D99E7C",
   font: "'Montserrat', sans-serif",
 };
 
@@ -17,5 +18,6 @@ export const light = {
   secundary: "#F28888",
   tertiary: "#D9AB91",
   text: "#0D0D0D",
+  scrollbar: "#E6B69A",
   font: "'Montserrat', sans-serif",
 };

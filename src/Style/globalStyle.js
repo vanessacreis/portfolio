@@ -15,11 +15,10 @@ export const GlobalStyle = createGlobalStyle`
 
     ::-webkit-scrollbar-track {
       box-shadow: inset 0 0 5px ${(p) => p.theme.secundary};
-      border-radius: 5px;
     }
 
     ::-webkit-scrollbar-thumb {
-      background: ${(p) => p.theme.primary};
+      background: ${(p) => p.theme.scrollbar};
       border-radius: 5px;
     }
   }
