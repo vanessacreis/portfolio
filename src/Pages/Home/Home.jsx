@@ -33,7 +33,7 @@ const Home = ({ theme }) => {
         </div>
       </S.Infos>
       <section>
-        <img src="/assets/img/imgme.svg" alt="" />
+        <img src="/assets/img/imgme.svg" alt="" className="iconImg" />
       </section>
     </S.Container>
   );

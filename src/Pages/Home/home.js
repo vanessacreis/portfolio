@@ -10,19 +10,36 @@ export const Container = styled.main`
   align-items: center;
   justify-content: space-around;
 
-  section > img {
+  .iconImg {
     width: 350px;
     height: 350px;
     transition: all 1s;
+    animation: float 1.5s infinite alternate ease-in-out;
 
-    &:hover {
-      filter: drop-shadow(2px 2px 10px ${(p) => p.theme.secundary});
+    @keyframes float {
+      0% {
+        transform: translateY(0);
+      }
+      100% {
+        transform: translateY(25px);
+        filter: drop-shadow(2px 2px 5px ${(p) => p.theme.secundary});
+      }
     }
   }
 `;
 
 export const Infos = styled.section`
   width: 30%;
+  animation: entrance 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+
+  @keyframes entrance {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
 
   > h1 {
     line-height: 46px;
@@ -58,6 +75,7 @@ export const Infos = styled.section`
     width: 40px;
     height: 50px;
     transition: all 0.5s;
+
     &:hover {
       width: 45px;
     }
