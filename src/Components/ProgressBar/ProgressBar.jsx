@@ -6,7 +6,9 @@ const ProgressBar = (props) => {
   return (
     <S.Skill>
       <p>{props.skill}</p>
-      <div style={{ width: `${props.progress}%` }}></div>
+      <div style={{ width: `${props.progress}%` }}>
+        <span>{props.progress}%</span>
+      </div>
     </S.Skill>
   );
 };

@@ -20,5 +20,11 @@ export const Skill = styled.div`
       ${(p) => p.theme.secundary} 70%
     );
     border-radius: 25px;
+    color: ${(p) => p.theme.text};
+    text-align: end;
+  }
+
+  div > span {
+    margin-right: 10px;
   }
 `;
