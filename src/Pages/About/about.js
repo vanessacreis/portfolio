@@ -32,7 +32,7 @@ export const Text = styled.div`
   p {
     font-size: 18px;
     color: ${(p) => p.theme.text};
-    font-weight: 300;
+    font-weight: 400;
     line-height: 28px;
     text-align: justify;
   }
@@ -41,7 +41,6 @@ export const Text = styled.div`
 export const Skills = styled.section`
   width: 100%;
   height: 100vh;
-  /* background-color: ${(p) => p.theme.black}; */
   background-repeat: no-repeat;
   padding: 50px 20px;
   display: flex;
