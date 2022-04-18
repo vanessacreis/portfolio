@@ -18,12 +18,13 @@ export const Container = styled.main`
     color: ${(p) => p.theme.primary};
     font-weight: 500;
     margin-bottom: 30px;
+    text-align: left;
   }
 `;
 
 export const divInfo = styled.div`
-  width: 85%;
-  height: 90%;
+  width: 90%;
+  height: 85%;
   display: flex;
   justify-content: space-around;
 
@@ -37,5 +38,6 @@ export const divInfo = styled.div`
 
   .imgProject > img {
     width: 100%;
+    border-radius: 10px;
   }
 `;

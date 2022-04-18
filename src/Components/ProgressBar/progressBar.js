@@ -6,7 +6,7 @@ export const Skill = styled.div`
   margin: 10px;
 
   p {
-    width: 100px;
+    width: 120px;
     color: ${(p) => p.theme.text};
     font-size: 14px;
     text-transform: uppercase;

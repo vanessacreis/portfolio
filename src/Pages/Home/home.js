@@ -14,15 +14,16 @@ export const Container = styled.main`
     width: 350px;
     height: 350px;
     transition: all 1s;
-    animation: float 1.5s infinite alternate ease-in-out;
+    animation: fadein 1.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 
-    @keyframes float {
+    @keyframes fadein {
       0% {
-        transform: translateY(0);
+        transform: translateZ(180px);
+        opacity: 0;
       }
       100% {
-        transform: translateY(25px);
-        filter: drop-shadow(2px 2px 5px ${(p) => p.theme.secundary});
+        transform: translateZ(0);
+        opacity: 1;
       }
     }
   }
@@ -30,13 +31,15 @@ export const Container = styled.main`
 
 export const Infos = styled.section`
   width: 30%;
-  animation: entrance 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: fadein 1.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 
-  @keyframes entrance {
+  @keyframes fadein {
     0% {
+      transform: translateZ(180px);
       opacity: 0;
     }
     100% {
+      transform: translateZ(0);
       opacity: 1;
     }
   }
