@@ -8,7 +8,7 @@ export const projetos = [
     github: "https://github.com/vanessacreis/ToDoList",
     deploy: "https://harmonious-cendol-c8e926.netlify.app/",
     stacks: {
-      hard: ["React JS", "Express", "Javascript", "CSS"],
+      hard: ["ReactJS", "Express", "Javascript", "CSS"],
       soft: ["Kanban"],
       tools: ["Figma", "VSCode"],
     },
@@ -105,7 +105,7 @@ export const projetos = [
     github: "https://github.com/vanessacreis/Bookstore-API",
     deploy: "https://livraria-api.herokuapp.com/",
     stacks: {
-      hard: ["Javascript", "Node JS", "Express", "Jest"],
+      hard: ["Javascript", "NodeJS", "Express", "Jest"],
       soft: ["Scrum", "Kanban"],
       tools: ["Figma", "VSCode", "Trello", "Notion"],
     },
