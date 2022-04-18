@@ -26,7 +26,17 @@ export const skills = [
   },
   {
     id: 6,
-    skill: "React.JS",
-    progress: 40,
+    skill: "Restful API",
+    progress: 60,
+  },
+  {
+    id: 7,
+    skill: "Jest",
+    progress: 35,
+  },
+  {
+    id: 8,
+    skill: "React JS",
+    progress: 45,
   },
 ];
