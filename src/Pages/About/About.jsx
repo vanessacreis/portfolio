@@ -1,4 +1,6 @@
 import React from "react";
+import { skills } from "../../Data/skills.js";
+import ProgressBar from "../../Components/ProgressBar/ProgressBar.jsx";
 import * as S from "./about.js";
 
 const About = ({ theme }) => {
@@ -31,6 +33,15 @@ const About = ({ theme }) => {
         <h1>
           Habilidades <br />e ferramentas
         </h1>
+        {skills.map((skill) => {
+          return (
+            <ProgressBar
+              key={skill.id}
+              skill={skill.skill}
+              progress={skill.progress}
+            />
+          );
+        })}
       </S.Skills>
     </S.Container>
   );
