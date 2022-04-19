@@ -14,7 +14,7 @@ export const Container = styled.main`
     width: 350px;
     height: 350px;
     transition: all 1s;
-    animation: fadein 1.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+    animation: fadein 2.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 
     @keyframes fadein {
       0% {
@@ -31,7 +31,7 @@ export const Container = styled.main`
 
 export const Infos = styled.section`
   width: 30%;
-  animation: fadein 1.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation: fadein 2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 
   @keyframes fadein {
     0% {
