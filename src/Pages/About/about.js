@@ -16,11 +16,6 @@ export const About = styled.section`
   display: flex;
   flex-direction: column;
   justify-content: center;
-`;
-
-export const Text = styled.div`
-  width: 70%;
-  height: 50%;
 
   h1 {
     font-size: 30px;
@@ -28,14 +23,17 @@ export const Text = styled.div`
     font-weight: 500;
     margin-bottom: 30px;
   }
+`;
 
-  p {
-    font-size: 18px;
-    color: ${(p) => p.theme.text};
-    font-weight: 400;
-    line-height: 28px;
-    text-align: justify;
-  }
+export const Text = styled.p`
+  width: 70%;
+  height: 45%;
+
+  font-size: 20px;
+  color: ${(p) => p.theme.text};
+  font-weight: 300;
+  line-height: 28px;
+  text-align: justify;
 `;
 
 export const Skills = styled.section`

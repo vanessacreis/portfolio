@@ -12,21 +12,18 @@ const About = ({ theme }) => {
       }}
     >
       <S.About>
+        <h1>Sobre</h1>
         <S.Text>
-          <h1>Sobre</h1>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod unde
-            veniam, corrupti molestiae asperiores vero magnam commodi modi quo,
-            reprehenderit expedita dolore beatae optio necessitatibus corporis,
-            numquam quidem ab quas. Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Provident, illum. Eaque, quod asperiores ut beatae
-            incidunt corporis optio quia hic ipsa similique veniam doloremque,
-            saepe, quas adipisci perferendis iusto necessitatibus! Lorem ipsum
-            dolor sit amet consectetur adipisicing elit. Possimus qui explicabo
-            voluptas, assumenda repellendus accusantium ipsum, facilis in
-            inventore provident quibusdam impedit, nihil laudantium sit fugiat
-            obcaecati? Libero, magni. Eum!
-          </p>
+          Vanessa Reis tem 26 anos, é mineira e historiadora que descobriu que
+          não precisava ser <i>de exatas</i> para ser uma desenvolvedora.
+          Durante sua formação na Resilia Educação, adquiriu habilidades de
+          Front e Back-end, além das soft-skills necessárias para seguir
+          evoluindo como profissional. Dentre os projetos realizados, se
+          destacou no desenvolvimento do front-end de uma barbearia utilizando
+          HTML, CSS e Javascript (você poderá vê-lo na seção de projetos).
+          <br />É apaixonada por aprender, compartilhar conhecimento e nas horas
+          vagas está sempre com um livro na mão. Atualmente está aprendendo
+          React.JS, Typescript e desenvolvendo a aplicação de uma livraria.
         </S.Text>
       </S.About>
       <S.Skills>
