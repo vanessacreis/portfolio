@@ -30,7 +30,7 @@ export const Container = styled.main`
 `;
 
 export const Infos = styled.section`
-  width: 30%;
+  width: 35%;
   animation: fadein 2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 
   @keyframes fadein {
@@ -45,20 +45,20 @@ export const Infos = styled.section`
   }
 
   > h1 {
-    line-height: 46px;
-    font-size: 36px;
+    line-height: 60px;
+    font-size: 56px;
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: 500;
   }
 
   > p {
-    font-size: 26px;
-    line-height: 36px;
+    font-size: 30px;
+    line-height: 45px;
     font-weight: 300;
   }
 
   div {
-    width: 40%;
+    width: 30%;
     display: flex;
     align-items: center;
     justify-content: space-between;
