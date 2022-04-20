@@ -1,22 +1,22 @@
 import styled from "styled-components";
 
 export const Info = styled.div`
-  width: 45%;
+  width: 35%;
   color: ${(p) => p.theme.text};
   font-size: 18px;
   font-weight: 300;
   line-height: 28px;
   text-align: justify;
   padding-right: 15px;
-  animation: entrance-top 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-in-left 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 
-  @keyframes entrance-top {
+  @keyframes slide-in-left {
     0% {
-      transform: translateY(-1000px);
+      transform: translateX(-1000px);
       opacity: 0;
     }
     100% {
-      transform: translateY(0);
+      transform: translateX(0);
       opacity: 1;
     }
   }

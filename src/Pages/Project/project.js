@@ -23,26 +23,26 @@ export const Container = styled.main`
 `;
 
 export const divInfo = styled.div`
-  width: 90%;
+  width: 95%;
   height: 85%;
   display: flex;
   justify-content: space-around;
 
   .imgProject {
-    width: 45%;
+    width: 55%;
     height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    animation: entrance 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+    animation: slide-in-right 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 
-    @keyframes entrance {
+    @keyframes slide-in-right {
       0% {
-        transform: translateY(1000px);
+        transform: translateX(1000px);
         opacity: 0;
       }
       100% {
-        transform: translateY(0);
+        transform: translateX(0);
         opacity: 1;
       }
     }

@@ -96,7 +96,7 @@ export const Back = styled.div`
   display: flex;
   flex-direction: column;
   gap: 10px;
-  animation: entrance-one 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: entrance-one 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 
   h3 {
     color: #0d0d0d;
