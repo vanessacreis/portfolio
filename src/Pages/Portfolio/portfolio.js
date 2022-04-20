@@ -27,6 +27,18 @@ export const Highlighted = styled.div`
   display: flex;
   flex-direction: column;
   gap: 10px;
+  animation: fast-entrance 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+
+  @keyframes fast-entrance {
+    0% {
+      transform: translateX(-1000px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
 
   h3 {
     color: #0d0d0d;
@@ -50,6 +62,18 @@ export const Front = styled.div`
   display: flex;
   flex-direction: column;
   gap: 10px;
+  animation: entrance-one 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+
+  @keyframes entrance-one {
+    0% {
+      transform: translateX(-1000px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
 
   h3 {
     color: #0d0d0d;
@@ -72,6 +96,7 @@ export const Back = styled.div`
   display: flex;
   flex-direction: column;
   gap: 10px;
+  animation: entrance-one 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 
   h3 {
     color: #0d0d0d;
@@ -94,6 +119,7 @@ export const Dados = styled.div`
   display: flex;
   flex-direction: column;
   gap: 10px;
+  animation: entrance-one 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 
   h3 {
     color: #0d0d0d;

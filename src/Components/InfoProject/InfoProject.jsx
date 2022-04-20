@@ -11,7 +11,6 @@ const InfoProject = (props) => {
       <p>
         Deploy: <a href={props.deploy}>Link do deploy</a>.
       </p>
-      <p>aaaaaaaaaaaaaaaa</p>
     </S.Info>
   );
 };
