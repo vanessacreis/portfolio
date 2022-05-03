@@ -2,17 +2,17 @@ export const skills = [
   {
     id: 1,
     skill: "HTML",
-    progress: 60,
+    progress: 80,
   },
   {
     id: 2,
     skill: "CSS",
-    progress: 65,
+    progress: 85,
   },
   {
     id: 3,
     skill: "JavaScript",
-    progress: 50,
+    progress: 60,
   },
   {
     id: 4,
@@ -22,12 +22,12 @@ export const skills = [
   {
     id: 5,
     skill: "Node JS",
-    progress: 45,
+    progress: 50,
   },
   {
     id: 6,
     skill: "Restful API",
-    progress: 60,
+    progress: 65,
   },
   {
     id: 7,
@@ -41,11 +41,6 @@ export const skills = [
   },
   {
     id: 9,
-    skill: "Express",
-    progress: 40,
-  },
-  {
-    id: 10,
     skill: "JQuery",
     progress: 50,
   },
