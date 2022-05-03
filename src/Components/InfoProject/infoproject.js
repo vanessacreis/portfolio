@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Info = styled.div`
-  width: 35%;
+  width: 32%;
   color: ${(p) => p.theme.text};
   font-size: 18px;
   font-weight: 300;
