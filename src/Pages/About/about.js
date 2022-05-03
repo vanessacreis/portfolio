@@ -7,11 +7,14 @@ export const Container = styled.main`
   background-repeat: no-repeat;
   background-position: top 0 right 0;
   background-size: contain;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 `;
 
 export const About = styled.section`
-  width: 100%;
-  height: 100vh;
+  width: 40%;
+  min-height: 100vh;
   padding: 50px 20px;
   display: flex;
   flex-direction: column;
@@ -38,7 +41,7 @@ export const About = styled.section`
 `;
 
 export const Text = styled.p`
-  width: 70%;
+  width: 100%;
   height: 45%;
 
   font-size: 20px;
@@ -49,13 +52,25 @@ export const Text = styled.p`
 `;
 
 export const Skills = styled.section`
-  width: 100%;
-  height: 100vh;
+  width: 50%;
+  min-height: 100vh;
   background-repeat: no-repeat;
   padding: 50px 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  animation: entrance-right 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+
+  @keyframes entrance-right {
+    0% {
+      transform: translateX(1000px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
 
   h1 {
     font-size: 30px;
