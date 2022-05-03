@@ -1,19 +1,21 @@
 import styled from "styled-components";
 
 export const Skill = styled.div`
-  width: 70%;
+  width: 75%;
   display: flex;
   margin: 10px;
 
   p {
-    width: 120px;
+    min-width: 120px;
     color: ${(p) => p.theme.text};
     font-size: 14px;
     text-transform: uppercase;
   }
 
   div {
-    height: 20px;
+    width: ${(p) => p.progress}%;
+    flex: none;
+    height: 15px;
     background: linear-gradient(
       90deg,
       ${(p) => p.theme.primary} 0%,
@@ -22,6 +24,16 @@ export const Skill = styled.div`
     border-radius: 25px;
     color: ${(p) => p.theme.text};
     text-align: end;
+    animation: progressbar 1s linear forwards;
+
+    /* @keyframes progressbar {
+      0% {
+        width: 0%;
+      }
+      100% {
+        width: ${(p) => p.progress}%;
+      }
+    } */
   }
 
   div > span {

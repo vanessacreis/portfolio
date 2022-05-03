@@ -2,11 +2,10 @@ import React from "react";
 import * as S from "./progressBar.js";
 
 const ProgressBar = (props) => {
-  console.log(props.progress);
   return (
-    <S.Skill>
+    <S.Skill progress={props.progress}>
       <p>{props.skill}</p>
-      <div style={{ width: `${props.progress}%` }}>
+      <div>
         <span>{props.progress}%</span>
       </div>
     </S.Skill>
