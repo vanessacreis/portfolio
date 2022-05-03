@@ -14,7 +14,7 @@ export const light = {
   name: "light",
   black: "#FCFCFC",
   white: "#0D0D0D",
-  primary: "#8C3E3E",
+  primary: "#A66B56",
   secundary: "#F28888",
   tertiary: "#D9AB91",
   text: "#0D0D0D",
