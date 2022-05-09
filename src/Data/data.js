@@ -13,7 +13,7 @@ export const projetos = [
       tools: ["Figma", "VSCode"],
     },
     category: "front end",
-    highlighted: true,
+    highlighted: false,
   },
   {
     id: 2,
@@ -127,5 +127,21 @@ export const projetos = [
     },
     category: "data",
     highlighted: false,
+  },
+  {
+    id: 9,
+    name: "Livraria na Van",
+    img: "/assets/img/Livraria-na-Van.png",
+    description:
+      "Livraria na Van é uma livraria itinerante fictícia, criada para fins didáticos para o projeto de final de módulo 5 do curso de desenvolvimento web da Resilia Educação. O frontend foi desenvolvido consumindo a API do estoque da Livraria criado no módulo 4",
+    github: "https://github.com/vanessacreis/bookstoreapp",
+    deploy: "https://bookstoreapp.vercel.app/",
+    stacks: {
+      hard: ["ReactJS, NodeJS, Styled Components"],
+      soft: ["Scrum", "Kanban"],
+      tools: ["VSCode", "Trello", "Canva", "Figma", "Insomnia", "Vercel"],
+    },
+    category: "front end",
+    highlighted: true,
   },
 ];
