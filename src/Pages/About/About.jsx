@@ -27,9 +27,7 @@ const About = ({ theme }) => {
         </S.Text>
       </S.About>
       <S.Skills>
-        <h1>
-          Habilidades <br />e ferramentas
-        </h1>
+        <h1>Habilidades</h1>
         {skills.map((skill) => {
           return (
             <ProgressBar

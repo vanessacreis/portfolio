@@ -1,21 +1,21 @@
 import styled from "styled-components";
 
 export const Skill = styled.div`
-  width: 75%;
+  width: 60%;
   display: flex;
   margin: 10px;
 
   p {
     min-width: 120px;
     color: ${(p) => p.theme.text};
-    font-size: 14px;
+    font-size: 15px;
     text-transform: uppercase;
   }
 
   div {
     width: ${(p) => p.progress}%;
     flex: none;
-    height: 15px;
+    height: 18px;
     background: linear-gradient(
       90deg,
       ${(p) => p.theme.primary} 0%,
