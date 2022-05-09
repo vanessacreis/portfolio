@@ -30,14 +30,11 @@ const Portfolio = ({ theme }) => {
             })}
           </div>
         </S.Highlighted>
-        <S.Front>
-          <h3>Front End</h3>
+        <S.Projects>
+          <h3>Todos os projetos</h3>
           <div>
             {projetos.map((projeto) => {
-              if (
-                projeto.highlighted === false &&
-                projeto.category === "front end"
-              ) {
+              if (projeto.highlighted === false) {
                 return (
                   <Project
                     key={projeto.name}
@@ -49,8 +46,8 @@ const Portfolio = ({ theme }) => {
               }
             })}
           </div>
-        </S.Front>
-        <S.Back>
+        </S.Projects>
+        {/* <S.Back>
           <h3>Back End</h3>
           <div>
             {projetos.map((projeto) => {
@@ -89,7 +86,7 @@ const Portfolio = ({ theme }) => {
               }
             })}
           </div>
-        </S.Dados>
+        </S.Dados> */}
       </div>
     </S.Container>
   );
