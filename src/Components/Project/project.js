@@ -18,8 +18,8 @@ export const Project = styled.div`
   }
 
   &.mini {
-    width: 25%;
-    height: 90%;
+    width: 400px;
+    height: 220px;
     font-size: 20px;
   }
 
@@ -39,7 +39,6 @@ export const Project = styled.div`
     background-color: #10101075;
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
-    
   }
   &:hover {
     .titulo {

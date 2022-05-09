@@ -51,14 +51,14 @@ export const Highlighted = styled.div`
     height: 95%;
     display: flex;
     justify-content: space-around;
-    gap: 10px;
+    gap: 25px;
     overflow-x: auto;
   }
 `;
 
-export const Front = styled.div`
+export const Projects = styled.div`
   width: 100%;
-  height: 220px;
+  height: 70%;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -84,54 +84,10 @@ export const Front = styled.div`
   div {
     width: 100%;
     height: 95%;
+    overflow: auto;
     display: flex;
-    gap: 10px;
-    overflow-x: auto;
-  }
-`;
-
-export const Back = styled.div`
-  width: 100%;
-  height: 220px;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  animation: entrance-one 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-
-  h3 {
-    color: #0d0d0d;
-    font-weight: 400;
-    font-size: 20px;
-  }
-
-  div {
-    width: 100%;
-    height: 95%;
-    display: flex;
-    gap: 10px;
-    overflow-x: auto;
-  }
-`;
-
-export const Dados = styled.div`
-  width: 100%;
-  height: 220px;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  animation: entrance-one 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-
-  h3 {
-    color: #0d0d0d;
-    font-weight: 400;
-    font-size: 20px;
-  }
-
-  div {
-    width: 100%;
-    height: 95%;
-    display: flex;
-    gap: 10px;
-    overflow-x: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
   }
 `;
